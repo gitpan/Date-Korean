@@ -1,12 +1,12 @@
 ---
 name: Date-Korean
-version: 0.0.1
+version: 0.0.2
 author:
   - 'C.H. Kang <chahkang@gmail.com>'
 abstract: Conversion between Korean solar / lunisolar date.
 license: perl
 resources:
-  license: http://dev.perl.org/licenses/
+  license: ~
 requires:
   Date::ISO8601: 0
   DateTime: 0
@@ -16,11 +16,11 @@ requires:
 provides:
   Date::Korean:
     file: lib/Date/Korean.pm
-    version: 0.0.1
+    version: 0.0.2
   Date::Korean::Table:
     file: lib/Date/Korean/Table.pm
-    version: 0.0.1
-generated_by: Module::Build version 0.3
+    version: 0.0.2
+generated_by: Module::Build version 0.31
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2

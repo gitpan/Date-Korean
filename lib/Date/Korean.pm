@@ -2,7 +2,7 @@ package Date::Korean;
 
 use strict;
 use warnings;
-use version; our $VERSION = qv('0.0.1');
+use version; our $VERSION = qv('0.0.2');
 use base 'Exporter';
 use DateTime;
 use DateTime::Calendar::Julian;
@@ -213,9 +213,9 @@ Convert lunisolar to solar date. This function takes lunisolar year, month, day,
 
 output
 
- Ùæí­ ìóâù Í¤Ú±
+ æˆŠå­ å£¬æˆŒ ç™¸æœª
 
-Get ganzi (sexagenary cycle - ÊÎò¨) of year(á¨ó­), month(êÅËï), day(ìíòã) in chinese. This function takes lunisolar year, month, day, leap flag.
+Get ganzi (sexagenary cycle - å¹²æ”¯) of year(æ­²æ¬¡), month(æœˆå»º), day(æ—¥è¾°) in chinese. This function takes lunisolar year, month, day, leap flag.
 
 =item get_ganzi_ko
 
@@ -225,9 +225,9 @@ Get ganzi (sexagenary cycle - ÊÎò¨) of year(á¨ó­), month(êÅËï), day(ìíòã) in chi
 
 output
 
- ¹«ÀÚ ÀÓ¼ú °è¹Ì
+ ë¬´ì ì„ìˆ  ê³„ë¯¸
 
-Get ganzi (sexagenary cycle - °£Áö) of year(¼¼Â÷), month(¿ù°Ç), day(ÀÏÁø) in korean. This function takes lunisolar year, month, day, leap flag.
+Get ganzi (sexagenary cycle - ê°„ì§€) of year(ì„¸ì°¨), month(ì›”ê±´), day(ì¼ì§„) in korean. This function takes lunisolar year, month, day, leap flag.
 
 =back
 
